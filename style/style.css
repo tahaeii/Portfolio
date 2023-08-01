@@ -1,0 +1,130 @@
+
+#section1{
+    margin: 10rem auto 0rem;
+}
+.section1-body-bac{
+    width: 100%;
+    background-image: url(../images/@Wallpaper_4K3D\ \(11652\).jpeg);
+    background-position-y: -20rem;
+    background-position-x: -40px;
+    /* background-position: center; */
+    background-attachment: fixed;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 27px;
+    height: 18rem;
+    border-radius: 27px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    filter: contrast(82%);
+    filter: saturate(0.89);
+    filter: blur(0.1px);
+}
+.section1-body-bac2{
+    background: #4e4e4e54;
+    opacity: 19;
+    width: 100%;
+    height: 18rem;  
+    border-radius: 27px; 
+}
+#section1 .body-content{
+    text-align: -webkit-center;
+}
+#section1 .body-content .tata-img{
+    position: relative;
+    top: 3rem;
+}
+#section1 .body-content .tata-txt{
+    color: white;
+    top: 8rem;
+    position: absolute;
+    left: -4rem;
+}
+#section1 .body-content .tata-txt > p{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: math;
+    margin-bottom: 0.3rem;
+}
+
+#section1
+.tata-img{
+    background: url(../images/DSC01050.JPG);
+    width: 7rem;
+    height: 7rem;
+    background-position-y: -0.3rem;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+}
+.menu nav{
+    background: #c0d5ff;
+}
+
+/* Sides */
+.sides-p{
+    font-family: revert;
+    padding: 0 72px;
+    font-size: 1.1rem;
+}
+#skills{
+    border: 2px solid #E9E9E9;
+    padding: 0px 0;
+    border-radius: 9px;
+    background: #FFF;
+    margin: 0 auto;
+    width: 69%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.skill{
+    padding: 7px 0px;
+    border-style: none;
+    box-shadow: -4px -4px 4px 0px #E9E9E9 inset, 4px 4px 4px 0px #E9E9E9 inset;
+    width: 16rem;
+    justify-content: center;
+}
+.skill-content{
+    padding: 10px;
+    font-size: 18px;
+    font-family: math;
+}
+.skill-num > span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.svg-skill-r{
+    position: absolute;
+    top: 47%;
+    left: 6.5%;
+}
+.svg-skill-l{
+    position: absolute;
+    top: 47%;
+    right: 6.5%;
+}
+/* section 3 */
+.svg-title{
+    position: relative;
+    right: 18.5rem;
+    top: -7px;
+    rotate: -4deg;
+}
+.section-title h3{
+    position: absolute;
+    bottom: 5.5rem;
+    font-size: 2rem;
+    left: 5.5rem;
+    transform: rotate(6deg);
+}
+
+.aboutme{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 23rem;
+}
+.hireme-bac-1{
+    position: absolute;
+    left: -44px;
+    width: 15%;
+}
