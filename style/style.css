@@ -124,7 +124,15 @@
     top: 23rem;
 }
 .hireme-bac-1{
+    top: 35px;
     position: absolute;
-    left: -44px;
-    width: 15%;
+    left: -2px;
+        width: 7%;
+    }
+    
+    .hireme-bac-2 {
+        position: absolute;
+        right: 0px;
+        width: 7%;
+        transform: rotate(179.87deg);
 }
