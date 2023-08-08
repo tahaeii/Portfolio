@@ -1,6 +1,7 @@
 #section1 {
     margin: 10rem auto 0rem;
 }
+
 .section1-body-bac {
     width: 100%;
     background-image: url(../images/@Wallpaper_4K3D\ \(11652\).jpeg);
@@ -18,26 +19,31 @@
     filter: saturate(0.89);
     filter: blur(0.1px);
 }
+
 .section1-body-bac2 {
     background: #4e4e4e54;
     opacity: 19;
     width: 100%;
     height: 18rem;
-        border-radius: 27px;
+    border-radius: 27px;
 }
+
 #section1 .body-content {
     text-align: -webkit-center;
 }
+
 #section1 .body-content .tata-img {
     position: relative;
     top: 3rem;
 }
+
 #section1 .body-content .tata-txt {
     color: white;
     top: 8rem;
     position: absolute;
     left: -4rem;
 }
+
 #section1 .body-content .tata-txt>p {
     font-size: 22px;
     font-weight: bold;
@@ -54,6 +60,7 @@
     background-size: cover;
     border-radius: 50%;
 }
+
 .menu nav {
     background: #c0d5ff;
 }
@@ -64,6 +71,7 @@
     padding: 0 72px;
     font-size: 1.1rem;
 }
+
 #skills {
     border: 2px solid #E9E9E9;
     padding: 0px 0;
@@ -74,6 +82,7 @@
     text-align: center;
     justify-content: space-evenly;
 }
+
 .skill {
     padding: 7px 0px;
     border-style: none;
@@ -81,20 +90,24 @@
     width: 16rem;
     justify-content: center;
 }
+
 .skill-content {
     padding: 10px;
     font-size: 18px;
     font-family: math;
 }
+
 .skill-num>span {
     font-size: 20px;
     font-weight: 600;
 }
+
 .svg-skill-r {
     position: absolute;
     top: 47%;
     left: 6.5%;
 }
+
 .svg-skill-l {
     position: absolute;
     top: 47%;
@@ -108,6 +121,7 @@
     top: -7px;
     rotate: -4deg;
 }
+
 .svg-title-r {
     position: relative;
     left: 17.5rem;
@@ -137,19 +151,21 @@
     position: absolute;
     top: 23rem;
 }
+
 .hireme-bac-1 {
     top: 35px;
     position: absolute;
     left: -2px;
     width: 7%;
-    }
-    
-    .hireme-bac-2 {
-        position: absolute;
-        right: 0px;
-        width: 7%;
-        transform: rotate(179.87deg);
 }
+
+.hireme-bac-2 {
+    position: absolute;
+    right: 0px;
+    width: 7%;
+    transform: rotate(179.87deg);
+}
+
 .hireme-bac-3 {
     bottom: 21.4rem;
     rotate: 90deg;
@@ -157,6 +173,11 @@
     width: 7%;
 }
 
+.hireme-bac-4 {
+    bottom: 5.4rem;
+    position: absolute;
+    width: 7%;
+}
 .cards {
     justify-content: space-evenly;
     width: 85%;
@@ -200,4 +221,35 @@
     position: absolute;
     left: -2.1rem;
     z-index: 1;
+}
+.card-shdw {
+    border-radius: 18px 0px 18px 18px;
+    background: #F7F6F6;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-font {
+    font-family: system-ui;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.card-bac {
+    background: #8d8d8d3d;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card-bac>img {
+    top: 2px;
+    position: relative;
+    left: 8px;
+    vertical-align: text-top;
+}
+
+.card-tack>img {
+    position: absolute;
+    right: -19px;
+    top: -18px;
 }
