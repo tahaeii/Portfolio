@@ -129,6 +129,12 @@
     rotate: 4deg;
 }
 
+.svg-title-c {
+    position: relative;
+    left: 14.5rem;
+    rotate: 50deg;
+    top: 4rem;
+}
 .section-title h3 {
     position: absolute;
     bottom: 5.5rem;
@@ -143,6 +149,13 @@
     font-size: 2rem;
     right: 6.5rem;
     transform: rotate(6deg);
+}
+.section-title-c h3 {
+    position: absolute;
+    bottom: 3rem;
+    font-size: 2rem;
+    right: 9.5rem;
+    /* transform: rotate(6deg);*/
 }
 
 .aboutme {
@@ -178,15 +191,28 @@
     position: absolute;
     width: 7%;
 }
+.hireme-bac-5 {
+    bottom: 10.4rem;
+    position: absolute;
+    rotate: -90deg;
+    width: 7%;
+    right: -1rem;
+}
 .cards {
     justify-content: space-evenly;
     width: 85%;
 }
 
-.card-title {
+.resume-title {
     font-family: system-ui;
     font-size: 32px;
     font-weight: bold;
+}
+.blog-title {
+    font-family: system-ui;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0 !important;
 }
 
 .member {
@@ -252,4 +278,145 @@
     position: absolute;
     right: -19px;
     top: -18px;
+}
+.test-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.test-swiper {
+    position: relative;
+    bottom: 19rem;
+    width: calc(1150 / 1600 * 100%);
+    margin-right: 0;
+}
+
+.slides-container {
+    overflow: hidden;
+}
+
+.test-navigation {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    top: 28rem;
+    left: 52rem;
+}
+
+.test-pagination {
+    margin-right: 10px;
+    text-align: center;
+    color: #373850;
+}
+
+.nav-btn {
+    position: relative;
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    background-color: #527590;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-btn.swiper-button-disabled {
+    cursor: auto;
+    background-color: rgba(102, 102, 102, 0.5);
+}
+
+.test-prev {
+    margin-right: 10px;
+}
+
+
+.test-prev::before {
+    left: calc(50% - 7px / 2);
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.test-slide {
+    position: relative;
+    overflow: hidden;
+    background-color: #d7d7d7;
+}
+
+
+
+.test-slide:focus {
+    outline: none;
+}
+
+
+.test-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Адаптивная высота слайда регулируется относительно его ширины с помощью padding-top в % для псевдоэлемента ::before */
+
+@media (max-width: 1024px) {
+    .test-slide::before {
+        padding-top: calc(85% - 6px);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .test-left-elem,
+    .test-swiper {
+        width: 100%;
+        marign-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .test-left-elem {
+        margin-bottom: 50px;
+    }
+
+    .test-select {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 440px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .test-swiper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .test-navigation {
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .test-slide::before {
+        padding-top: calc(110% - 6px);
+    }
 }
