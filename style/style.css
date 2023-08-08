@@ -1,8 +1,7 @@
-
-#section1{
+#section1 {
     margin: 10rem auto 0rem;
 }
-.section1-body-bac{
+.section1-body-bac {
     width: 100%;
     background-image: url(../images/@Wallpaper_4K3D\ \(11652\).jpeg);
     background-position-y: -20rem;
@@ -19,35 +18,34 @@
     filter: saturate(0.89);
     filter: blur(0.1px);
 }
-.section1-body-bac2{
+.section1-body-bac2 {
     background: #4e4e4e54;
     opacity: 19;
     width: 100%;
-    height: 18rem;  
-    border-radius: 27px; 
+    height: 18rem;
+        border-radius: 27px;
 }
-#section1 .body-content{
+#section1 .body-content {
     text-align: -webkit-center;
 }
-#section1 .body-content .tata-img{
+#section1 .body-content .tata-img {
     position: relative;
     top: 3rem;
 }
-#section1 .body-content .tata-txt{
+#section1 .body-content .tata-txt {
     color: white;
     top: 8rem;
     position: absolute;
     left: -4rem;
 }
-#section1 .body-content .tata-txt > p{
+#section1 .body-content .tata-txt>p {
     font-size: 22px;
     font-weight: bold;
     font-family: math;
     margin-bottom: 0.3rem;
 }
 
-#section1
-.tata-img{
+#section1 .tata-img {
     background: url(../images/DSC01050.JPG);
     width: 7rem;
     height: 7rem;
@@ -56,17 +54,17 @@
     background-size: cover;
     border-radius: 50%;
 }
-.menu nav{
+.menu nav {
     background: #c0d5ff;
 }
 
 /* Sides */
-.sides-p{
+.sides-p {
     font-family: revert;
     padding: 0 72px;
     font-size: 1.1rem;
 }
-#skills{
+#skills {
     border: 2px solid #E9E9E9;
     padding: 0px 0;
     border-radius: 9px;
@@ -76,40 +74,48 @@
     text-align: center;
     justify-content: space-evenly;
 }
-.skill{
+.skill {
     padding: 7px 0px;
     border-style: none;
     box-shadow: -4px -4px 4px 0px #E9E9E9 inset, 4px 4px 4px 0px #E9E9E9 inset;
     width: 16rem;
     justify-content: center;
 }
-.skill-content{
+.skill-content {
     padding: 10px;
     font-size: 18px;
     font-family: math;
 }
-.skill-num > span{
+.skill-num>span {
     font-size: 20px;
     font-weight: 600;
 }
-.svg-skill-r{
+.svg-skill-r {
     position: absolute;
     top: 47%;
     left: 6.5%;
 }
-.svg-skill-l{
+.svg-skill-l {
     position: absolute;
     top: 47%;
     right: 6.5%;
 }
+
 /* section 3 */
-.svg-title{
+.svg-title {
     position: relative;
     right: 18.5rem;
     top: -7px;
     rotate: -4deg;
 }
-.section-title h3{
+.svg-title-r {
+    position: relative;
+    left: 17.5rem;
+    top: -7px;
+    rotate: 4deg;
+}
+
+.section-title h3 {
     position: absolute;
     bottom: 5.5rem;
     font-size: 2rem;
@@ -117,17 +123,25 @@
     transform: rotate(6deg);
 }
 
-.aboutme{
+.section-title-r h3 {
+    position: absolute;
+    bottom: 5.5rem;
+    font-size: 2rem;
+    right: 6.5rem;
+    transform: rotate(6deg);
+}
+
+.aboutme {
     display: flex;
     justify-content: space-evenly;
     position: absolute;
     top: 23rem;
 }
-.hireme-bac-1{
+.hireme-bac-1 {
     top: 35px;
     position: absolute;
     left: -2px;
-        width: 7%;
+    width: 7%;
     }
     
     .hireme-bac-2 {
@@ -135,4 +149,55 @@
         right: 0px;
         width: 7%;
         transform: rotate(179.87deg);
+}
+.hireme-bac-3 {
+    bottom: 21.4rem;
+    rotate: 90deg;
+    position: absolute;
+    width: 7%;
+}
+
+.cards {
+    justify-content: space-evenly;
+    width: 85%;
+}
+
+.card-title {
+    font-family: system-ui;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.member {
+    height: 31px;
+    width: 31px;
+    border: 1px solid;
+    border-radius: 68px;
+}
+
+.member1 {
+    background-image: url(../images/photo_2023-07-23_02-23-32.jpg);
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    right: 2.7rem;
+    z-index: 3;
+}
+
+.member2 {
+    background-image: url(../images/photo_2023-07-23_02-23-32.jpg);
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    left: -3.4rem;
+    z-index: 2;
+}
+
+.member3 {
+    background-image: url(../images/photo_2023-07-23_02-23-32.jpg);
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    left: -2.1rem;
+    z-index: 1;
 }
